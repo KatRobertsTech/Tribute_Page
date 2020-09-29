@@ -2,25 +2,38 @@
 Colors used:
 Primary Color:  #000000
 Secondary Color: #ffffff
-Tertiary Color: #B8F5EB
+Tertiary Color: #9AECFE
 Background Color (white): #FFFFFF
 Text Colors (#000000, #ffffff)
+Iphone SE text size: 16px
 */
 
-/* font-family: 'Karla', sans-serif;
-font-family: 'Lato', sans-serif; */
+/* font-family: 'Montserrat', sans-serif;*/
 
 /* Global Styles------------------------------------------------------------------- */
 
-
-
 body {
   background-color: pink;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
 }
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  }
+
+  h2 {
+   font-size: 1.85em;
+   font-weight: 600;
+  }
+
 .hero1 {
   background: blue;
 }
@@ -32,6 +45,25 @@ body {
 .navigation {
   background: green;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #9AECFE;
+}
+
+a:active {
+  color: #EE92C2;
+}
+
+nav>ul {
+  list-style-type: none;
+}
+
 
 /* Links and Buttons----------------------------------------------------------------- */
 
