@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="favicon_32x32.png" rel="shortcut icon" type="image/png" sizes="32x32">
   </head>
   <body>
@@ -29,10 +29,11 @@
     </header>
 
     <main>
+      <div id="main">
           <div> <!--hero-->
             <div class="hero1"> <!--hero1-->
               <div> <!--Title Section-->
-                <h1>Adam Ondra</h1>
+                <h1 id="title">Adam Ondra</h1>
                 <p>'I don't really think about why I climb, I just simply love it.'</p>
                 <div> <!--Social Media Icons-->
                   <a href="" target="_blank">
@@ -47,19 +48,19 @@
                 </div>
               </div>
 
-              <div> <!--Photo-->
+              <div id="image-div"> <!--Photo-->
                 <picture>
                     <!-- <img width="500" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adam_Ondra_portrait_by_PAVEL_BLAZEK_1.jpg" alt="Adam_Ondra_portrait_by_PAVEL_BLAZEK_1"> -->
                     <!-- <img src="https://via.placeholder.com/400x500?text=Image" alt="Image Placeholder" > -->
                     <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-                    <img src="http://via.placeholder.com/1200x800" alt="Image Placeholder">
+                    <img div="image" src="http://via.placeholder.com/1200x800" alt="Image Placeholder">
                 </picture>
               </div>
 
             </div>
 
             <div class="hero2"> <!--hero2 - About-->
-              <h1>About</h1>
+              <h2>About</h2>
               <p>Adam Ondra is Czech professional rock climber. Adam inherited his passion from his
                 parents who are both climbers. His talent became apparent from the very young age. He
                 started climbing from three years of age and when he was 8 years old, he climbed his first
@@ -88,7 +89,7 @@
 
         </div>
       </div>
-
+    </div>
     </main>
 
 
