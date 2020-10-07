@@ -1,10 +1,10 @@
 /*
 Colors used:
-Primary Color:  #000000
+Primary Color:  #100032
 Secondary Color: #ffffff
-Tertiary Color: #9AECFE
-Background Color (white): #FFFFFF
-Text Colors (#000000, #ffffff)
+Tertiary Color: #210068
+Font Color: #ffffff
+Font Color: #0D0029
 Iphone SE text size: 16px
 */
 
@@ -17,11 +17,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
-img {
-  width: 100%;
+h1, h2 {
+  line-height: 1.4;
 }
 
 h1 {
@@ -33,6 +33,15 @@ h1 {
    font-size: 1.85em;
    font-weight: 600;
   }
+
+  figcaption {
+    font-size: 14px;
+    font-style: italic;
+  }
+
+img {
+  width: 100%;
+}
 
 .hero1 {
   background: blue;
@@ -46,6 +55,14 @@ h1 {
   background: green;
 }
 
+
+
+nav>ul {
+  list-style-type: none;
+}
+
+
+/* Links and Buttons----------------------------------------------------------------- */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -60,12 +77,11 @@ a:active {
   color: #EE92C2;
 }
 
-nav>ul {
-  list-style-type: none;
+.soc-media-link {
+  display: inline-block;
+  padding: 10px;
+  transition: 0.2s opacity; /* Not sure what this is for */
 }
-
-
-/* Links and Buttons----------------------------------------------------------------- */
 
 /* Header------------------------------------------------------------------------------ */
 
