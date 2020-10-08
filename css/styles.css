@@ -12,6 +12,21 @@ Iphone SE text size: 16px
 
 /* Global Styles------------------------------------------------------------------- */
 
+/* https://css-tricks.com/box-sizing/
+* {
+  box-sizing: border-box;
+} */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
 body {
   background-color: pink;
   font-family: 'Montserrat', sans-serif;
@@ -44,27 +59,38 @@ img {
 }
 
 .hero1 {
-  background: blue;
+  background: #100032;
+  color: #ffffff;
+}
+.hero1 a {
+  color: #ffffff;
 }
 
 .hero2 {
-  background: red;
+  background: #ffffff;
 }
-
-.navigation {
-  background: green;
-}
-
 
 
 nav>ul {
   list-style-type: none;
 }
 
+.achievements {
+  background-color: #100032;
+  color: #ffffff;
+}
+
+.gallery {
+  background-color: #ffffff;
+}
+
+/* Layout Styling------------------------------------------------------------------------ */
+.container {
+  padding: 0 15px;
+}
 
 /* Links and Buttons----------------------------------------------------------------- */
 a {
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -84,16 +110,36 @@ a:active {
 }
 
 /* Header------------------------------------------------------------------------------ */
+header {
+  background-color: #210068;
+    color: #ffffff;
+    padding: 10px;
+}
+header a {
+  color: #ffffff;
+}
+header .logo {
+  width: 5%;
+}
 
 /* Main--------------------------------------------------------------------------------- */
 
 /* Footer-------------------------------------------------------------------------------- */
+footer {
+  background-color: #210068;
+  color: #ffffff;
+}
+
+
+footer a {
+  color: #ffffff;
+}
 .fab {
   font-size: 35px;
 }
 
 /* Containers & Columns------------------------------------------------------------- */
 
-/* Layout Styling------------------------------------------------------------------------ */
+
 
 /* Media Queries----------------------------------------------------------------------- */
