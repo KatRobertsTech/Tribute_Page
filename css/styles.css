@@ -11,21 +11,13 @@ Iphone SE text size: 16px
 /* font-family: 'Montserrat', sans-serif;*/
 
 /* Global Styles------------------------------------------------------------------- */
-
+* {
+  box-sizing: border-box;
+}
 /* https://css-tricks.com/box-sizing/
 * {
   box-sizing: border-box;
 } */
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  }
 
 body {
   background-color: pink;
@@ -37,6 +29,8 @@ body {
 
 h1, h2 {
   line-height: 1.4;
+  padding-top: 0.67em;
+  margin: 0;
 }
 
 h1 {
@@ -88,6 +82,10 @@ nav>ul {
 .container {
   padding: 0 15px;
 }
+
+/* .row {
+  margin: 0;
+} */
 
 /* Links and Buttons----------------------------------------------------------------- */
 a {
