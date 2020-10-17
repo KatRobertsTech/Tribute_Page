@@ -88,6 +88,10 @@ p {
   padding: 0.67em 0
 }
 
+.text {
+  text-align: justify;
+}
+
 /* Timeline */
 /* The actual timeline (the vertical ruler) */
   .timeline {
