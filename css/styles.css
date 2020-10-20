@@ -43,6 +43,18 @@ h1 {
    font-weight: 600;
   }
 
+  h3 {
+    font-size: 1.85em;
+    font-weight: 600;
+    margin: 0 0 0.3em 0;
+  }
+
+  h4 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 0.3em 0 0.67em 0;
+  }
+
   figcaption {
     font-size: 14px;
     font-style: italic;
@@ -118,6 +130,15 @@ p {
     position: relative;
     background-color: inherit;
     width: 50%;
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+  .cont_text {
+    padding: 0;
+    margin-top: 0.67em;
   }
 
   /* The circles on the timeline */
@@ -268,6 +289,7 @@ header .logo {
 footer {
   background-color: #210068;
   color: #ffffff;
+  text-align: center;
 }
 
 
