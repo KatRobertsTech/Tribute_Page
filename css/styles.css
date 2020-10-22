@@ -85,6 +85,8 @@ nav>ul>li {
   display: inline-block;
   padding: 0 15px;
 }
+
+
 nav>ul>li>a:hover {
   color: #FF9A9A;
   font-weight: 600;
