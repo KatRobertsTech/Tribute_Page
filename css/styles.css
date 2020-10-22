@@ -79,6 +79,15 @@ img {
 
 nav>ul {
   list-style-type: none;
+  padding: 0;
+}
+nav>ul>li {
+  display: inline-block;
+  padding: 0 15px;
+}
+nav>ul>li>a:hover {
+  color: #FF9A9A;
+  font-weight: 600;
 }
 
 .achievements {
@@ -103,6 +112,13 @@ p {
 .text {
   text-align: justify;
 }
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* Timeline */
 /* The actual timeline (the vertical ruler) */
@@ -246,9 +262,9 @@ p {
   padding: 0 15px;
 }
 
-/* .row {
-  margin: 0;
-} */
+.row {
+
+}
 
 /* Links and Buttons----------------------------------------------------------------- */
 a {
@@ -274,13 +290,14 @@ a:active {
 header {
   background-color: #210068;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 0;
 }
 header a {
   color: #ffffff;
 }
 header .logo {
-  width: 5%;
+  width: 48px;
+  float: left;
 }
 
 /* Main--------------------------------------------------------------------------------- */
