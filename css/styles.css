@@ -97,7 +97,7 @@ nav>ul>li>a:hover {
   color: #ffffff;
 }
 
-.gallery {
+.gallery_section {
   background-color: #ffffff;
 }
 
@@ -120,6 +120,21 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Gallery */
+body .gallery {
+    margin: auto;
+    text-align: center;
+}
+
+.cropped {
+    max-width: 300px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
 
 
 /* Timeline */
@@ -261,7 +276,8 @@ p {
 
 /* Layout Styling------------------------------------------------------------------------ */
 .container {
-  padding: 0 15px;
+  margin: 0 15px 0 15px;
+
 }
 
 .row {
@@ -338,7 +354,9 @@ footer a {
 }
 
 @media only screen and (min-width: 1024px) {
-
+    .gallery {
+        max-width: 980px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
