@@ -43,6 +43,10 @@ h1 {
    font-weight: 600;
   }
 
+.achievements h2 {
+    margin-bottom: 0;
+  }
+
   h3 {
     font-size: 1.85em;
     font-weight: 600;
@@ -60,8 +64,11 @@ h1 {
     font-style: italic;
   }
 
-img {
-  width: 100%;
+img.hero-image {
+  max-width: 35%;
+  display: block;
+  margin: 0 auto;
+  /* width: 100%; */
 }
 
 .hero1 {
@@ -70,6 +77,10 @@ img {
 }
 .hero1 a {
   color: #ffffff;
+}
+
+figure {
+  text-align: center;
 }
 
 .hero2 {
@@ -111,15 +122,21 @@ p {
   padding: 0.67em 0
 }
 
-.text {
+p.text {
   text-align: justify;
+  margin: 0.67em 0 0.67em 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
+
+
 
 /* Gallery */
 body .gallery {
@@ -135,6 +152,15 @@ body .gallery {
     object-fit: cover;
 }
 
+.hero-image {
+  width: 75%;
+}
+
+div.hero2 {
+  padding-bottom: 0.67em;
+}
+
+
 
 
 /* Timeline */
@@ -143,6 +169,7 @@ body .gallery {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1em 0;
   }
 
   /* The actual timeline (the vertical ruler) */
@@ -276,7 +303,7 @@ body .gallery {
 
 /* Layout Styling------------------------------------------------------------------------ */
 .container {
-  margin: 0 15px 0 15px;
+  /* margin: 0 15px 0 15px; */
 
 }
 
@@ -334,6 +361,7 @@ footer {
   background-color: #210068;
   color: #ffffff;
   text-align: center;
+  padding-bottom: 0.67em;
 }
 
 
