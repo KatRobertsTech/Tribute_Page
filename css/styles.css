@@ -20,7 +20,7 @@ Iphone SE text size: 16px
 } */
 
 body {
-  background-color: pink;
+  background-color: #100032;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -168,7 +168,7 @@ div.hero2 {
 /* Timeline */
 /* The actual timeline (the vertical ruler) */
   .timeline {
-    background-color: #100032;
+    /* background-color: #100032; */
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
