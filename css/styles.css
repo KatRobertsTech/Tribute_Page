@@ -65,14 +65,13 @@ h1 {
   }
 
 img.hero-image {
-  max-width: 35%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
-  /* width: 100%; */
 }
 
 .hero1 {
-  background: #100032;
+  background-color: #100032;
   color: #ffffff;
 }
 .hero1 a {
@@ -84,8 +83,11 @@ figure {
 }
 
 .hero2 {
-  background: #ffffff;
+  background-color: #ffffff;
+  display: inline-block;
+
 }
+
 
 
 nav>ul {
@@ -136,7 +138,10 @@ p.text {
   padding: 0 15px;
 }
 
-
+.quote {
+  padding-top: 0;
+  margin-top: 0.67em;
+}
 
 /* Gallery */
 body .gallery {
@@ -152,9 +157,6 @@ body .gallery {
     object-fit: cover;
 }
 
-.hero-image {
-  width: 75%;
-}
 
 div.hero2 {
   padding-bottom: 0.67em;
@@ -166,6 +168,7 @@ div.hero2 {
 /* Timeline */
 /* The actual timeline (the vertical ruler) */
   .timeline {
+    background-color: #100032;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -342,6 +345,7 @@ header {
       position: fixed;
       z-index: 2;
       width: 100%;
+      text-align: right;
 }
 header a {
   color: #ffffff;
@@ -378,12 +382,24 @@ footer a {
 
 /* Media Queries----------------------------------------------------------------------- */
 @media only screen and (min-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    float:left;
+  }
+
 
 }
 
 @media only screen and (min-width: 1024px) {
     .gallery {
         max-width: 980px;
+    }
+    body {
+      font-size: 18px;
     }
 }
 
