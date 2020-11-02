@@ -85,6 +85,7 @@ figure {
 .hero2 {
   background-color: #ffffff;
   display: inline-block;
+  width: 100%;
 
 }
 
@@ -162,10 +163,6 @@ div.hero2 {
   padding-bottom: 0.67em;
 }
 
-.about2 {
-  background-color: green;
-  padding-bottom: 0.67em;
-}
 
 
 /* Timeline */
