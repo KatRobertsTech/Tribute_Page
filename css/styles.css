@@ -136,7 +136,7 @@ nav>ul>li>a:hover {
   background-color: #ffffff;
 }
 
-figure {
+.fig-hero {
   margin: 0;
   padding: 0.67em 0;
 }
@@ -416,9 +416,6 @@ footer a {
 }
 
 @media only screen and (min-width: 1024px) {
-    .gallery {
-        max-width: 980px;
-    }
     body {
       font-size: 18px;
     }
