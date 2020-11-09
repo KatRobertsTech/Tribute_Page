@@ -5,6 +5,7 @@ Secondary Color: #ffffff
 Tertiary Color: #210068
 Font Color: #ffffff
 Font Color: #0D0029
+link color: #FF9A9A
 Iphone SE text size: 16px
 */
 
@@ -74,14 +75,28 @@ img.hero-image {
   background-color: #100032;
   color: #ffffff;
 }
+
+
+
 .hero1 a {
   color: #ffffff;
 }
 
-.clearfix: :after {
+#img-caption > a{
+  color: #FF9A9A;
+}
+
+#img-caption > a:hover {
+  text-decoration: underline;
+}
+
+.clearfix ::after {
   content: "";
   clear: both;
   display: block;
+}
+.empty {
+  height: 0.67em;
 }
 
 figure {
@@ -92,7 +107,6 @@ figure {
   background-color: #ffffff;
   display: inline-block;
   width: 100%;
-
 }
 
 
@@ -115,6 +129,7 @@ nav>ul>li>a:hover {
 .achievements {
   background-color: #100032;
   color: #ffffff;
+  margin-bottom: 0.67em;
 }
 
 .gallery_section {
@@ -307,7 +322,6 @@ div.hero2 {
       left: 0%;
     }
   }
-
 
 
 /* Layout Styling------------------------------------------------------------------------ */
