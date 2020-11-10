@@ -82,6 +82,10 @@ img.hero-image {
   color: #ffffff;
 }
 
+#img-caption {
+  margin-top: 5px;
+}
+
 #img-caption > a{
   color: #FF9A9A;
 }
@@ -182,7 +186,9 @@ body .gallery {
 .gallery>figure {
   width: 300px;
   float: left;
+  margin-bottom: 5px;
 }
+
 
 
 div.hero2 {
