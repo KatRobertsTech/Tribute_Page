@@ -86,7 +86,15 @@ img.hero-image {
   margin-top: 5px;
 }
 
+.img-caption {
+  margin-top: 0;
+}
+
 #img-caption > a{
+  color: #FF9A9A;
+}
+
+.img-caption > a{
   color: #FF9A9A;
 }
 
@@ -94,11 +102,21 @@ img.hero-image {
   text-decoration: underline;
 }
 
+.img-caption > a:hover {
+  text-decoration: underline;
+}
+
+figure a {
+  display: inline-block;
+}
+
 .clearfix ::after {
   content: "";
   clear: both;
   display: block;
 }
+
+
 .empty {
   height: 0.67em;
 }
@@ -139,6 +157,7 @@ nav>ul>li>a:hover {
 .gallery_section {
   background-color: #ffffff;
 }
+
 
 .fig-hero {
   margin: 0;
