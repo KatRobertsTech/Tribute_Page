@@ -454,6 +454,9 @@ footer a {
     margin-top: 1.3em;
   }
 
+  .hero-image {
+  text-align: center;}
+
   h1#title {
     padding-top: 0.3em;
   }
