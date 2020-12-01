@@ -144,7 +144,6 @@ nav>ul {
   padding: 0;
 }
 nav>ul>li {
-  display: inline-block;
   padding: 0 15px;
 }
 
@@ -461,6 +460,9 @@ footer a {
     padding-top: 0.3em;
   }
 
+nav > ul > li {
+  display: inline-block;
+}
 
 }
 
