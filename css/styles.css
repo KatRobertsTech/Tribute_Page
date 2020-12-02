@@ -135,25 +135,10 @@ figure {
   width: 100%;
 }
 
-header {
-  height:  57px;
-}
 
-nav>ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav>ul>li {
-  padding: 0 15px;
-}
 
-nav a {
-  font-size: 19px;
-}
 
-nav>ul>li>a:hover {
-  color: #FF9A9A;
-}
+
 
 .achievements {
   background-color: #100032;
@@ -195,6 +180,44 @@ p.text {
   margin-top: 0.67em;
 }
 
+
+/* Navigation----------------------------------------------------------------- */
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav>ul>li {
+  padding: 0 15px;
+}
+
+nav a {
+  font-size: 19px;
+}
+
+nav>ul>li>a:hover {
+  color: #FF9A9A;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+/* .navtoggle, .navtoggle.responsive {
+  position: relative;
+} */
+
+.navtoggle li .icon1 {
+  font-size: 30px;
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+
 /* Gallery */
 body .gallery {
     margin: auto;
@@ -224,11 +247,15 @@ body .gallery {
 }
 
 
-
-
 div.hero2 {
   padding-bottom: 0.67em;
 }
+
+
+
+
+
+
 
 
 
@@ -395,7 +422,10 @@ a:active {
 }
 
 /* Header------------------------------------------------------------------------------ */
+
+
 header {
+  height:  57px;
   background-color: #210068;
     color: #ffffff;
     /* padding: 10px 0; */
@@ -463,6 +493,15 @@ footer a {
 nav > ul > li {
   display: inline-block;
 }
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
 
 }
 
