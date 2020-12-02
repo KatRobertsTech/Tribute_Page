@@ -213,8 +213,18 @@ nav>ul>li>a:hover {
   top: 9px;
 }
 
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
 .navtoggle.responsive li {
   display: block;
+  padding: 10px 0;
+  border-top: 1px solid red;
+}
+
+navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 
