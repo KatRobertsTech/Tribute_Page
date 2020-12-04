@@ -194,6 +194,9 @@ nav a {
   font-size: 19px;
 }
 
+
+
+
 nav>ul>li>a:hover {
   color: #FF9A9A;
 }
@@ -213,9 +216,16 @@ nav>ul>li>a:hover {
   top: 9px;
 }
 
+
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 50px 0 0;
 }
+
+.navtoggle.responsive .logo {
+  position: relative;
+  top: 16px;
+}
+
 
 .navtoggle.responsive li {
   display: block;
@@ -223,7 +233,7 @@ nav>ul>li>a:hover {
   border-top: 1px solid red;
 }
 
-navtoggle.responsive li:last-child {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -435,21 +445,23 @@ a:active {
 
 
 header {
-  height:  57px;
+  /* height: 57px; */
   background-color: #210068;
     color: #ffffff;
-    /* padding: 10px 0; */
+    padding-bottom: 15px;
     -webkit-box-shadow: 0px 7px 6px 0px #210068;
     -moz-box-shadow:    0px 7px 6px 0px #210068;
       box-shadow:         0px 7px 6px 0px #210068;
       position: fixed;
-      z-index: 2;
       width: 100%;
       text-align: right;
+      z-index: 2;
 }
 header a {
-  color: #ffffff;
+  color: #ffffff
 }
+
+
 header .logo {
   width: 48px;
   float: left;
@@ -504,6 +516,10 @@ nav > ul > li {
   display: inline-block;
 }
 
+nav > ul > li:nth-child(4) {
+  padding-right: 0;
+}
+
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
@@ -512,6 +528,10 @@ nav > ul > li {
   display: none;
 }
 
+header {
+  padding-bottom: 0;
+  height: 57px;
+}
 
 }
 
