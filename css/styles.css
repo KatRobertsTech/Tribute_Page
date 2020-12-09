@@ -60,9 +60,8 @@ h1 {
     margin: 0.3em 0 0.67em 0;
   }
 
-  .space {
-    height: 57px;
-    background-color: white;
+  .gallery_section h2 {
+    margin-bottom: 0.2em;
   }
 
   figcaption {
@@ -127,7 +126,7 @@ figure a {
 
 
 .empty {
-  height: 1.5em;
+  height: 57px;
 }
 
 figure {
@@ -281,9 +280,9 @@ body .gallery {
 }
 
 
-div.hero2 {
+/* div.hero2 {
   padding-bottom: 0.67em;
-}
+} */
 
 
 
