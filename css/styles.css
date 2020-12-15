@@ -5,7 +5,7 @@ Secondary Color: #ffffff
 Tertiary Color: #210068
 Font Color: #ffffff
 Font Color: #0D0029
-link color: #FF9A9A
+link color: #F525A8
 Iphone SE text size: 16px
 */
 /* font-family: 'Montserrat', sans-serif;*/
@@ -79,7 +79,7 @@ img#image {
 }
 
 .copyright:hover {
-  color: #FF9A9A;
+  color: #F525A8;
   text-decoration: underline;
 }
 
@@ -96,11 +96,11 @@ img#image {
 }
 
 #img-caption>a {
-  color: #FF9A9A;
+  color: #F525A8;
 }
 
 .img-caption>a {
-  color: #FF9A9A;
+  color: #F525A8;
 }
 
 #img-caption>a:hover {
@@ -189,7 +189,7 @@ nav a {
 }
 
 nav>ul>li>a:hover {
-  color: #FF9A9A;
+  color: #F525A8;
 }
 
 .navtoggle li:not(:last-child) {
@@ -254,11 +254,11 @@ body .gallery {
 }
 
 .gallery a {
-  color: rgb(245, 26, 164);
+  color: #F525A8;
 }
 
 .gallery a:hover {
-  color: rgb(245, 26, 164);
+  color:#F525A8;
 }
 
 /* div.hero2 {
@@ -312,7 +312,7 @@ body .gallery {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid rgb(245, 26, 164);
+  border: 4px solid #F525A8;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -411,11 +411,11 @@ a {
 
 a:hover,
 a:focus {
-  color: rgb(245, 26, 164);
+  color:#F525A8;
 }
 
 a:active {
-  color: #EE92C2;
+  color: #F525A8;
 }
 
 .soc-media-link {
